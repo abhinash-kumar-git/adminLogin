@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <welcome-file-list>
+  <welcome-file>home.jsp</welcome-file>
+  
+  </welcome-file-list>
+  <servlet>
+  <servlet-name>web</servlet-name>
+  <servlet-class>www.com.com.MyServlet</servlet-class>
+  
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>web</servlet-name>
+  <url-pattern>/we</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>web1</servlet-name>
+  <servlet-class>www.com.com.com.SecondServlet</servlet-class>
+  
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>web1</servlet-name>
+  <url-pattern>/web</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>web2</servlet-name>
+  <servlet-class>www.bold.com.Myservlet</servlet-class>
+  
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>web2</servlet-name>
+  <url-pattern>/webs</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>web3</servlet-name>
+  <servlet-class>www.com.ds.RegisterServlet</servlet-class>
+  
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>web3</servlet-name>
+  <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+  <servlet-name>success</servlet-name>
+  <servlet-class>www.succesregiter.com.SuccessFully</servlet-class>
+  
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>success</servlet-name>
+  <url-pattern>/success</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>s2</servlet-name>
+  <servlet-class>www.c.S</servlet-class>
+  
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>s2</servlet-name>
+  <url-pattern>/Ss</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>sl</servlet-name>
+  <servlet-class>www.s2</servlet-class>
+  
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>sl</servlet-name>
+  <url-pattern>/s1</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <session-config>
+  <session-timeout>
+  30 
+  </session-timeout>
+  
+  </session-config>
+</web-app>
